@@ -1,11 +1,11 @@
 {
-  "name": "menubar",
-  "version": "4.1.0",
-  "description": "high level way to create menubar desktop applications with electron",
+  "name": "menubar-extra",
+  "version": "5.0.0",
+  "description": "High level way to create menubar desktop applications with electron. Forked from menubar with extra options.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxogden/menubar.git"
+    "url": "https://github.com/santomegonzalo/menubar-extra.git"
   },
   "scripts": {
     "test": "standard"
@@ -15,19 +15,20 @@
     "atom",
     "shell",
     "menubar",
+    "menubar-extra",
     "menu",
     "mac",
     "app"
   ],
-  "author": "max ogden",
+  "author": "Gonzalo Santome",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/maxogden/menubar/issues"
+    "url": "https://github.com/santomegonzalo/menubar-extra/issues"
   },
-  "homepage": "https://github.com/maxogden/menubar",
+  "homepage": "https://github.com/santomegonzalo/menubar-extra",
   "dependencies": {
-    "electron-positioner": "^2.0.1",
-    "extend": "^2.0.0"
+    "electron-positioner": "2.0.3",
+    "extend": "3.0.0"
   },
   "devDependencies": {
     "standard": "^5.4.1"

@@ -1,7 +1,9 @@
-var menubar = require('menubar')
+'use strict';
 
-var mb = menubar()
+let menubar = require('menubar');
 
-mb.on('ready', function ready () {
-  console.log('app is ready')
-})
+let mb = menubar();
+
+mb.on('ready', function ready() {
+  console.log('app is ready');
+});
